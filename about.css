@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Kanit&family=Roboto+Mono&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    align-items: center;
+}
+
+.container {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    margin: 20px 10px;
+}
+
+.btn button {
+    border: none;
+}
+
+.btn button a {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #07ef07;
+    padding: 7px;
+    border-radius: 10px;
+    transition: .5s ease-in-out;
+}
+
+.btn button a:hover {
+    padding: 10px;
+}
+
+.text {
+    width: 500px;
+    margin: 20px 10px;
+}
+
+.text span {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background: rgb(212, 238, 174);
+    background: linear-gradient(90deg, rgba(212, 238, 174, 1) 43%, rgba(148, 187, 233, 1) 86%);
+}
+
+.text p {
+    font-size: 13px;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.img {
+    margin: 20px 10px;
+}
+
+.img img {
+    border-radius: 10%;
+}
+
+@media screen and (max-width: 635px) {
+
+    .container {
+        flex-direction: column;
+        height: 700px;
+    }
+
+}
